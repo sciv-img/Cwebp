@@ -1,0 +1,15 @@
+module Cwebp [system] {
+    module Decode {
+        header "/usr/local/include/webp/decode.h"
+        export *
+    }
+    module Encode {
+        header "/usr/local/include/webp/encode.h"
+        export *
+    }
+    module Types {
+        header "/usr/local/include/webp/types.h"
+        export *
+    }
+    link "webp"
+}
